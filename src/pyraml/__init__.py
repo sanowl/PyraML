@@ -1,8 +1,8 @@
 """PyraML: A deep learning framework focusing on simplicity and educational purposes."""
 
-__version__ = "0.1.0"
 
-from pyraml.core import Tensor
+# Import version, etc. but avoid importing implementation modules
+__version__ = "0.1.0"
 from pyraml.nn.layers import Linear, Conv2d
 from pyraml.nn.activations import ReLU, Sigmoid, Tanh
 from pyraml.optim import SGD, Adam
